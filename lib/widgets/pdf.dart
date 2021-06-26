@@ -41,40 +41,50 @@ class _pdfState extends State<pdf> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("Welcome")),
       drawer: Drawer(
-        child: Column(
-          children: <Widget>[
-            SizedBox(height: 36),
+          child: Container(
+        color: Colors.purple,
+        child: ListView(
+          children: [
+            UserAccountsDrawerHeader(
+              decoration: BoxDecoration(color: Colors.purple),
+              accountName: Text('Ravi'),
+              accountEmail: Text("rraviggupta@gmail.com"),
+              currentAccountPicture: CircleAvatar(),
+              onDetailsPressed: () {},
+            ),
             ListTile(
-              title: Text('Load from Assets'),
+              title: Text('Load from Assets',
+                  style: TextStyle(color: Colors.white)),
               onTap: () {
                 changePDF(1);
               },
             ),
             ListTile(
-              title: Text('Load from URL'),
+              title:
+                  Text('Load from URL', style: TextStyle(color: Colors.white)),
               onTap: () {
                 changePDF(2);
               },
             ),
             ListTile(
-              title: Text('Restore default'),
+              title: Text('Restore default',
+                  style: TextStyle(color: Colors.white)),
               onTap: () {
                 changePDF(3);
               },
             ),
           ],
         ),
-      ),
+      )),
       body: Center(
         child: _isLoading
             ? Center(child: CircularProgressIndicator())
             : PDFViewer(
                 document: document,
                 zoomSteps: 1,
-                // uncomment below line to preload all pages
                 lazyLoad: false,
-                // uncomment below line to scroll vertically
                 scrollDirection: Axis.vertical,
 
                 //uncomment below code to replace bottom navigation with your own

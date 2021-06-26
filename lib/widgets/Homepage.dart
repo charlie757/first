@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
                     elevation: 30,
                     child: Center(
                       child: Text(
-                        "First",
+                        "First PDF",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                     )),
@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                     elevation: 30,
                     child: Center(
                       child: Text(
-                        "Second",
+                        "Second PDF",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                     )),
@@ -63,14 +63,14 @@ class _HomePageState extends State<HomePage> {
                   context, MaterialPageRoute(builder: (context) => pdf()));
             },
             child: Container(
-              height: 100,
               width: width,
+              height: 100,
               child: Card(
                 color: Colors.blueGrey,
                 elevation: 30,
                 child: Center(
                     child: Text(
-                  "Third",
+                  "Third PDF",
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 )),
               ),
@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
                     elevation: 30,
                     child: Center(
                       child: Text(
-                        "Fourth",
+                        "Fourth PDF",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                     ))),
@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                     elevation: 30,
                     child: Center(
                       child: Text(
-                        "Fifth",
+                        "Fifth PDF",
                         style: TextStyle(color: Colors.white, fontSize: 18),
                       ),
                     ))),
