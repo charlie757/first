@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "331926683905",
+    "firebase_url": "https://pdf-file-60039-default-rtdb.firebaseio.com",
+    "project_id": "pdf-file-60039",
+    "storage_bucket": "pdf-file-60039.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331926683905:android:71323913a0e90f8272db00",
+        "android_client_info": {
+          "package_name": "com.example.pdf2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331926683905-aed75lnq1bpfmj7r0nta2k12lcravpm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD602VMYO4foMI39V1gtayJsLkvp31Xn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331926683905-aed75lnq1bpfmj7r0nta2k12lcravpm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331926683905:android:3dac806bb6f26dcc72db00",
+        "android_client_info": {
+          "package_name": "mtechviral.fdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331926683905-aed75lnq1bpfmj7r0nta2k12lcravpm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD602VMYO4foMI39V1gtayJsLkvp31Xn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331926683905-aed75lnq1bpfmj7r0nta2k12lcravpm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
