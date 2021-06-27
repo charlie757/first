@@ -31,13 +31,6 @@ class _pdfState extends State<pdf> {
     } else if (value == 2) {
       document = await PDFDocument.fromURL(
         "http://conorlastowka.com/book/CitationNeededBook-Sample.pdf",
-        /* cacheManager: CacheManager(
-          Config(
-            "customCacheKey",
-            stalePeriod: const Duration(days: 2),
-            maxNrOfCacheObjects: 10,
-          ),
-        ), */
       );
     } else {
       document = await PDFDocument.fromAsset('assets/sample.pdf');
@@ -72,9 +65,6 @@ class _pdfState extends State<pdf> {
             ),
           ],
         ),
-      ),
-      appBar: AppBar(
-        title: const Text('FlutterPluginPDFViewer'),
       ),
       body: Center(
         child: _isLoading
